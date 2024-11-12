@@ -7,9 +7,9 @@
 
 # Запуск
 ## Для Visual Studio или VS Code
-1) Cкопировать репозиторий через терминал: `git clone https://github.com/lSershl/SimpleWebScraper.git`
+1) Cкопировать репозиторий через терминал: `git clone https://github.com/lSershl/SimpleWebScraper.git` или через десктоп версию
 2) Открыть файл `.sln` и запустить проект в дебаг режиме
-3) Следовать инструкциям в терминале
+3) Следовать инструкциям в открывшемся окне консоли
 4) После сохранения данных и завершения работы приложения можно открыть `.csv` файл
 ## Для Docker контейнера
 1) Взять образ с докер хаба: `docker pull lsershl/simplewebscraper:latest`
