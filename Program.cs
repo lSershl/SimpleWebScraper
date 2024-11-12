@@ -118,7 +118,7 @@ using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
     }
 }
 
-Console.WriteLine($"Файл сохранён в вашу папку Документы: {Path.Combine(filePath, fileName)}");
+Console.WriteLine($"Файл сохранён по следующему пути: {Path.Combine(filePath, fileName)}");
 Console.WriteLine("Нажмите любую клавишу для выхода...");
 Console.ReadKey(true);
 Environment.Exit(0);
